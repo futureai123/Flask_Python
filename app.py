@@ -1,9 +1,11 @@
 from flask import Flask, jsonify, request, Response, json
+import json
+from settings import *
 #code to be revied
 #code is a sample
 
-app = Flask(__name__)
-print(__name__)
+# moved to settings.py app = Flask(__name__)
+
 books = [
     {'name': 'A',
      'price': '7,99',
